@@ -5,12 +5,15 @@ import "strings"
 
 // HTTP Methods
 const (
-	GET    = "GET"
-	POST   = "POST"
-	HEAD   = "HEAD"
-	PUT    = "PUT"
-	PATCH  = "PATCH"
-	DELETE = "DELETE"
+	GET     = "GET"
+	POST    = "POST"
+	HEAD    = "HEAD"
+	PUT     = "PUT"
+	PATCH   = "PATCH"
+	DELETE  = "DELETE"
+	OPTIONS = "OPTIONS"
+	TRACE   = "TRACE"
+	CONNECT = "CONNECT"
 )
 
 // Bouncer struct around list of allowed HTTP methods
