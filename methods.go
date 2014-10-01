@@ -38,7 +38,7 @@ func Allow(m ...string) *Bouncer {
 
 // Allowed returns true if request method is included in the allow list
 func (b Bouncer) Allowed(req *http.Request) bool {
-	m := req.Method
+	m := strings.ToUpper(req.Method)
 	for _, v := range b.allow {
 		if m == v {
 			return true
