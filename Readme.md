@@ -1,7 +1,7 @@
-# go-methods
+# methods
 
-[![Build Status](https://travis-ci.org/nowk/go-methods.svg?branch=master)](https://travis-ci.org/nowk/go-methods)
-[![GoDoc](https://godoc.org/github.com/nowk/go-methods?status.svg)](http://godoc.org/github.com/nowk/go-methods)
+[![Build Status](https://travis-ci.org/nowk/methods.svg?branch=master)](https://travis-ci.org/nowk/methods)
+[![GoDoc](https://godoc.org/github.com/nowk/methods?status.svg)](http://godoc.org/github.com/nowk/methods)
 
 Method bouncer
 
