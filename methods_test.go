@@ -22,3 +22,9 @@ func TestAllowMethods(t *testing.T) {
 		assert.Equal(t, b, v.b)
 	}
 }
+
+func TestBlankMethodIsGet(t *testing.T) {
+	m := Allow("GET")
+	b := m.Allowed(&http.Request{})
+	assert.True(t, b)
+}
