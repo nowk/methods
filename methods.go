@@ -38,7 +38,7 @@ func Allow(m ...string) *Bouncer {
 
 // Allowed returns true if request method is included in the allow list
 func (b Bouncer) Allowed(req *http.Request) bool {
-	m := strings.ToUpper(req.Method)
+	m := req.Method
 	if "" == m {
 		m = "GET" // For client requests an empty string means GET, from docs
 	}

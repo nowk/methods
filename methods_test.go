@@ -13,7 +13,6 @@ func TestAllowMethods(t *testing.T) {
 	}{
 		{"GET", true},
 		{"POST", true},
-		{"post", true},
 		{"DELETE", false},
 	} {
 		b := m.Allowed(&http.Request{
